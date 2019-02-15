@@ -1,0 +1,42 @@
+body{
+    margin:0;
+}
+
+nav{
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 30px 0;
+    background-color: brown;
+    align-items: center;
+
+}
+
+.hamburguer{
+    display:flex;
+    width: 100%;
+}
+
+.hamburguer img{
+    width: 50px;
+    height: 50px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    margin:5px 0;
+    text-align: center;
+}
+
+.esconde{
+    /* transform: scale(0);
+    transition: 1s; */
+    display: none;
+    transition: 5s;
+}
